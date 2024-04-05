@@ -1,0 +1,34 @@
+#Test_section{
+    width: 80%;
+    height: 100%;
+}
+#Test_block {
+    background-color: #ede6e7;
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+    overflow-y: auto;
+}
+
+#questionLR {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#variants_list{
+    height: 100%;
+    width: 50%;
+}
+
+.variant_block{ 
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.variant_block_Selected {
+    background-color: rgb(228, 174, 94);
+}
